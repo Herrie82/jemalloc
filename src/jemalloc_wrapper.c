@@ -1,5 +1,5 @@
 /*-
- * Copyright (c) 2008-2013 LG Electronics, Inc.
+ * Copyright (c) 2008-2018 LG Electronics, Inc.
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without

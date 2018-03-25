@@ -1,6 +1,6 @@
 /*-
  * Copyright (C) 2008 Jason Evans <jasone@FreeBSD.org>.
- * Copyright (c) 2008-2013 LG Electronics, Inc.
+ * Copyright (c) 2008-2018 LG Electronics, Inc.
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -245,7 +245,7 @@
 #  define SIZEOF_PTR_2POW	3
 #  define CPU_SPINWAIT		__asm__ volatile("pause")
 #endif
-#ifdef __arm__
+#if defined(__arm__) || defined (__aarch64__)
 #  define PAGESIZE_2POW		12
 #  define QUANTUM_2POW		3
 #  define SIZEOF_PTR_2POW	2
